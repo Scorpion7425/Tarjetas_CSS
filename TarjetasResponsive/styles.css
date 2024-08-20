@@ -1,0 +1,66 @@
+h2{
+    font-family: "Matemasie", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+}
+p{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-style: normal;
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center; 
+}
+
+.tarjeta{
+    background: #697565 ;
+    color: #FFFBE6;
+    border: 1px solid #1E201E;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(133, 121, 121) ;
+    width: 23%;
+    box-sizing: border-box;
+}
+
+.precio{
+    font-size: 50px;
+    color: #7A1CAC;
+}
+
+.btn_comprar{
+    display: block;
+    background: #FF9100 ;
+    padding: 10px;
+    color: #1E201E;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.btn_comprar:hover{
+    background:#b46600 ;
+}
+
+@media (max-width: 1070px){
+    .tarjeta{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .tarjeta{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
